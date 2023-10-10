@@ -25,7 +25,8 @@ int print_sign(int n)
 		return (-1);
 	}
 	/* If none of the above conditions are met, you should return a value.
-	 * You can return an appropriate value like -2 or any other integer to handle this case.
-	 */
+ * You can return an appropriate value like -2 or any other integer to
+ * handle this case.
+ */
 	return (-2);
 }
