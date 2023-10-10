@@ -9,23 +9,23 @@
  */
 int print_sign(int n)
 {
-    if (n > 0)
-    {
-        _putchar('+');
-        return (1);
-    } 
-    else if (n == 0)
-    {
-        _putchar('0');
-        return (0);
-    } 
-    else if (n < 0)
-    {
-        _putchar('-');
-        return (-1);
-    }
-    /* If none of the above conditions are met, you should return a value.
-     * You can return an appropriate value like -2 or any other integer to handle this case.
-     */
-    return -2;
+	if (n > 0)
+	{
+		_putchar('+');
+		return (1);
+	}
+	else if (n == 0)
+	{
+		_putchar('0');
+		return (0);
+	}
+	else if (n < 0)
+	{
+		_putchar('-');
+		return (-1);
+	}
+	/* If none of the above conditions are met, you should return a value.
+	 * You can return an appropriate value like -2 or any other integer to handle this case.
+	 */
+	return (-2);
 }
